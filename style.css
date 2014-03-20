@@ -5,7 +5,10 @@
     margin: 0px;
 	text-align: center;
 	color: #BFCFFF;
+<<<<<<< HEAD
 	background-image: url('./img/pass2/bg.png'); 
+=======
+>>>>>>> b2e88e7c1d83f51bddbd12a19d91918c89b8823a
 }
 
 h1
@@ -22,6 +25,7 @@ h3
 h4
 {
     font-size: 1.4em;
+<<<<<<< HEAD
     font-style: italic;
     font-family: 'Roboto Condensed';
     font-weight: 300;
@@ -37,21 +41,33 @@ h6
 	margin-top: 30px;
 	margin-bottom: 30px;
     color: #FF5500;
+=======
+    font-style: normal;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+>>>>>>> b2e88e7c1d83f51bddbd12a19d91918c89b8823a
 }
 
 #nametag
 {
+<<<<<<< HEAD
+=======
+    background-color: #000027;
+>>>>>>> b2e88e7c1d83f51bddbd12a19d91918c89b8823a
     padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 1px;
 }
 
+<<<<<<< HEAD
 sub
 {	
 	color: #ff9000;
 }
 
 
+=======
+>>>>>>> b2e88e7c1d83f51bddbd12a19d91918c89b8823a
 p
 {
     margin-left: 2px;
@@ -83,7 +99,11 @@ p
 }
 #nametag a li:hover
 {
+<<<<<<< HEAD
     background-color: #FF3700;
+=======
+    background-color: #ff9000;
+>>>>>>> b2e88e7c1d83f51bddbd12a19d91918c89b8823a
 }
 #nametag a li
 {
@@ -127,12 +147,22 @@ p
 #latest 
 {
     display: inline-block;
+<<<<<<< HEAD
 }
 #latest p
 {
 	text-align:left;
 	padding-left: 120px;
 	padding-right: 120px;
+=======
+	text-align: center;
+    background-color: #000027;
+}
+#latest h3
+{
+	text-align: left;
+	padding-left: 30px;
+>>>>>>> b2e88e7c1d83f51bddbd12a19d91918c89b8823a
 }
 #latest img
 {
@@ -140,10 +170,19 @@ p
     padding-left: 20px;    
     padding-right: 20px;
 }
+<<<<<<< HEAD
+=======
+#latest p
+{
+	padding: 0 80px 00px 80px;
+	text-align: left;
+}
+>>>>>>> b2e88e7c1d83f51bddbd12a19d91918c89b8823a
 
 h5
 {
     font-size: 2em;
+<<<<<<< HEAD
     font-family: 'orbitronlight';
     margin-bottom: 10px;
     margin-top: 30px;
@@ -162,4 +201,12 @@ a:hover
 }
 small
 {
+=======
+    font-style: italic;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    padding-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+>>>>>>> b2e88e7c1d83f51bddbd12a19d91918c89b8823a
 }
