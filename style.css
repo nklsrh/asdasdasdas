@@ -5,6 +5,7 @@
     margin: 0px;
 	text-align: center;
 	color: #BFCFFF;
+	background-image: url('./img/pass2/bg.png'); 
 }
 
 h1
@@ -21,18 +22,35 @@ h3
 h4
 {
     font-size: 1.4em;
-    font-style: normal;
+    font-style: italic;
     font-family: 'Roboto Condensed';
+    font-weight: 300;
+    color: #FF6500;
+}
+
+h6
+{
+    font-size: 3.4em;
+    font-family: 'orbitronlight';
     font-weight: 400;
+	margin: 0;
+	margin-top: 30px;
+	margin-bottom: 30px;
+    color: #FF5500;
 }
 
 #nametag
 {
-    background-color: #000027;
     padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 1px;
 }
+
+sub
+{	
+	color: #ff9000;
+}
+
 
 p
 {
@@ -65,7 +83,7 @@ p
 }
 #nametag a li:hover
 {
-    background-color: #ff9000;
+    background-color: #FF3700;
 }
 #nametag a li
 {
@@ -109,13 +127,12 @@ p
 #latest 
 {
     display: inline-block;
-	text-align: center;
-    background-color: #000027;
 }
-#latest h3
+#latest p
 {
-	text-align: left;
-	padding-left: 30px;
+	text-align:left;
+	padding-left: 120px;
+	padding-right: 120px;
 }
 #latest img
 {
@@ -123,19 +140,26 @@ p
     padding-left: 20px;    
     padding-right: 20px;
 }
-#latest p
-{
-	padding: 0 80px 00px 80px;
-	text-align: left;
-}
 
 h5
 {
     font-size: 2em;
-    font-style: italic;
-    font-family: 'Roboto Condensed';
-    font-weight: 300;
-    padding-left: 50px;
+    font-family: 'orbitronlight';
     margin-bottom: 10px;
     margin-top: 30px;
+	padding-left: 120px;
+	padding-right: 120px;
+	color: #FF6A00;
+}
+
+a
+{
+	color: #ff5000;
+}
+a:hover
+{
+	color: #fff;
+}
+small
+{
 }
